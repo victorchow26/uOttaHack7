@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Notes App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Study Notes</h1>
+    </header>
+    <main>
+        <section id="note-form">
+            <input type="text" id="note-title" placeholder="Note Title" required>
+            <textarea id="note-content" placeholder="Write your note here..." required></textarea>
+            <button id="add-note-btn">Add Note</button>
+        </section>
+        <section id="notes-container">
+            <h2>Your Notes</h2>
+            <div id="notes"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Study Notes Team</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
